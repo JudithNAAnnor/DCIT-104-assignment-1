@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+Int main() {
+int num_count;
+int num_limit;
+int sum = 2; 
+Cout <<"Type in a number";
+Cin >>num_limit;
+  For(num_count=0 ; num_count ; 
+  <num_limit; num_count ++) 
+{
+  If(num_limit0%num_count==0;
+  num_count++}
+  {
+Cout<<num_count<<end1;
+Sum= sum + num_count
+Cout << sum ;
+  }
+Return 0;
+}
