@@ -1,20 +1,25 @@
 #include <iostream>
 using namespace std;
-Int main() {
-int num_count;
-int num_limit;
-int sum = 2; 
-Cout <<"Type in a number";
-Cin >>num_limit;
-  For(num_count=0 ; num_count ; 
-  <num_limit; num_count ++) 
-{
-  If(num_limit0%num_count==0;
-  num_count++}
-  {
-Cout<<num_count<<end1;
-Sum= sum + num_count
-Cout << sum ;
+int main(){
+  // Judith Niamah Asare Annor
+  // 10989519
+  int num_count;
+  int num_limit;
+  int sum = 2;
+  
+  cout << "type in a number: " << endl;
+  cin >> num_limit;
+  
+  for (num_count = 0 ; num_count<num_limit ; num_count++){
+    
+      if (num_limit % num_count == 0 ; num_count++){
+       // cout << num_count << endl;
+        sum = sum + num_count ;
+        cout << sum << endl;
+      }
+      
+     
   }
-Return 0;
+  
+  return 0;
 }
